@@ -18,11 +18,11 @@ Throughout my research, I have also collected _most_ of the different PDFs I cou
 
 If you are reading this within Obsidian, a table of contents, linking to all the notes can be found at the bottom of this readme. Here is an overview of the whole Canvas:
 
-![overview](screenshots/Ovrview.png)
+![full](screenshots/OvrView.png)
 
 Within the notes describing the class, I have included a simple example of the `.h` header file. This will include the virtual methods that must/can be implemented in the user created class. A link to the source code of the base class that the user created class will have to inherit from is also included. An example of this is in the Physics list note:
 
-![physlistclass](screenshots/physListHeader.png)
+![physNote](screenshots/PhysListHeader.png)
 
 Within the method notes, I have included a simple example of how that class can be used. This is not the only way these methods can be used. I tried to pick a simple and general enough example. However, since multiple classes interact with other classes, some examples may be spread across multiple notes. It is indicated when this is the case.
 
