@@ -8,14 +8,16 @@ I basic working knowledge of C++ and OOP may be needed to fully understand how t
 Geant4 was the focus of my BSc Physics [dissertation](https://github.com/ConnerGrice/Geant4-P2P-Investigation) as well as the focus of work I am currently doing for the University of York. I found refreshing my memory on the framework was time consuming due to all the useful information being scattered across the internet in the form of PowerPoints, forum questions, and the source code itself. This lead me to want to build a reference guide to allow me to quickly start new projects and get them running with the least amount of Google searches. It is also my first Obsidian project and I wanted to make use of the Canvas functionality to visualise how the different parts of the Geant4 framework work together.
 
 ## Overview
-If you are reading this within Obsidian, a table of contents, linking to all the notes can be found at the bottom of this readme. Here is an overview of the whole Canvas:
-![overview](screenshots/Ovrview.png)
-
-I have tried to cover the very basics of Geant4, from the main function, mandatory classes, and all the user action classes. The basic structure of the notes within the Canvas are as follows.
+I have tried to cover the very basics of Geant4, from the main function, mandatory classes, and all the user action classes. The basic structure of the notes within the Canvas are as follows:
 
 - Classes are yellow
 - Virtual methods are purple
 - A class and its methods are grouped in red
+
+Throughout my research, I have also collected _most_ of the different PDFs I could find. I did not make these and I do not own them. They can be found in the `Resources` folder.
+
+If you are reading this within Obsidian, a table of contents, linking to all the notes can be found at the bottom of this readme. Here is an overview of the whole Canvas:
+![overview](screenshots/Ovrview.png)
 
 Within the notes describing the class, I have included a simple example of the `.h` header file. This will include the virtual methods that must/can be implemented in the user created class. A link to the source code of the base class that the user created class will have to inherit from is also included. An example of this is in the Physics list note:
 ![physlistclass](screenshots/physListHeader.png)
