@@ -17,7 +17,7 @@
                 "viewState": {
                   "x": 1323.5,
                   "y": -560,
-                  "zoom": -3.239005999652236
+                  "zoom": -4
                 }
               }
             }
@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "06d209800019a39f",
@@ -150,13 +149,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6eaf53f636a06635",
+  "active": "5b7ac2b9fffe400e",
   "lastOpenFiles": [
+    "Geant4/Geant4.md",
+    "Geant4/Geant4-Overview.canvas",
     "Geant4-Obsidian-Learning-Resource",
     "Geant4/LogicalVolume.md",
-    "Geant4/Geant4-Overview.canvas",
     "Casual Work",
-    "Geant4/Geant4.md",
     "Geant4/PrimaryGeneratorAction/PrimaryGeneratorAction.md",
     "Geant4/TrackingAction/TrackingAction.md",
     "Geant4/TrackingAction/PreUserTrackingAction().md",
@@ -181,7 +180,6 @@
     "Geant4/Resources/UserActions_MNovak.pdf",
     "Geant4/Resources/userActions.pdf",
     "Geant4/Resources/PhysicsLists.pdf",
-    "Geant4/Resources/MagneticField-v002.pdf",
     "Geant4/PrimaryGeneratorAction/GeneratePrimaries().md",
     "Geant4/PhysicsList/SetCuts().md",
     "Geant4/PhysicsList/PhysicsList.md",
