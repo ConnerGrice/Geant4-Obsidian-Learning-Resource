@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "39edae8219808896",
+    "type": "split",
+    "children": [
+      {
+        "id": "11e9a83ff3342376",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b7ac2b9fffe400e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Geant4/Geant4-Overview.canvas",
+                "viewState": {
+                  "x": 1323.5,
+                  "y": -560,
+                  "zoom": -3.239005999652236
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "325882b958faa247",
+    "type": "split",
+    "children": [
+      {
+        "id": "84b37a99fb2a2ad5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6eaf53f636a06635",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "83e15a3519d4c998",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf1b8b66bfbff3e8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "06d209800019a39f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b553312b17ffc32b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6421aa4e73260f53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Geant4/Geant4-Overview.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "141a6154426c5d0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Geant4/Geant4-Overview.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4836d00184841681",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3b7ab9b550f86915",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Geant4/Geant4-Overview.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6eaf53f636a06635",
+  "lastOpenFiles": [
+    "Geant4-Obsidian-Learning-Resource",
+    "Geant4/LogicalVolume.md",
+    "Geant4/Geant4-Overview.canvas",
+    "Casual Work",
+    "Geant4/Geant4.md",
+    "Geant4/PrimaryGeneratorAction/PrimaryGeneratorAction.md",
+    "Geant4/TrackingAction/TrackingAction.md",
+    "Geant4/TrackingAction/PreUserTrackingAction().md",
+    "Geant4/TrackingAction/PostUserTrackingAction().md",
+    "Geant4/TrackingAction",
+    "Geant4/SteppingAction/UserSteppingAction().md",
+    "Geant4/SteppingAction/SteppingAction.md",
+    "Geant4/SteppingAction",
+    "Geant4/StackingAction/StackingAction.md",
+    "Geant4/StackingAction/PrepareNewEvent().md",
+    "Geant4/StackingAction/NewStage().md",
+    "Geant4/StackingAction/ClassifyNewTrack().md",
+    "Geant4/StackingAction",
+    "Geant4/SensitiveDetector/SensitiveDetector.md",
+    "Geant4/SensitiveDetector/ProcessHits().md",
+    "Geant4/SensitiveDetector/Initialize().md",
+    "Geant4/SensitiveDetector",
+    "Geant4/RunAction/RunAction.md",
+    "Geant4/RunAction/EndOfRunAction().md",
+    "Geant4/RunAction/BeginOfRunAction().md",
+    "Geant4/RunAction",
+    "Geant4/Resources/UserActions_MNovak.pdf",
+    "Geant4/Resources/userActions.pdf",
+    "Geant4/Resources/PhysicsLists.pdf",
+    "Geant4/Resources/MagneticField-v002.pdf",
+    "Geant4/PrimaryGeneratorAction/GeneratePrimaries().md",
+    "Geant4/PhysicsList/SetCuts().md",
+    "Geant4/PhysicsList/PhysicsList.md",
+    "Geant4/PhysicsList/ConstructProcess().md",
+    "Geant4/PhysicsList/ConstructParticle().md",
+    "Geant4/Physical Volumes/Repeated Volumes/Repeated Volumes.md",
+    "Geant4/Physical Volumes/Repeated Volumes/PVReplica.md"
+  ]
+}

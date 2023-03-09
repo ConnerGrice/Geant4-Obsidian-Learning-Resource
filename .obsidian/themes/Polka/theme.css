@@ -1,0 +1,551 @@
+.theme-light {
+  /* Background Colors */
+  --background-primary: rgb(255, 253, 253);
+  --background-secondary: rgb(251, 247, 247);
+  --background-dark: rgb(23, 34, 62);
+  --background-extra-dark: rgb(0, 10, 20);
+  --background-primary-alt: var(--background-dark);
+  --background-secondary-alt: var(--background-dark);
+  
+  /* Accent Colors */
+  --accent-main: 225, 40, 40;
+  --accent-soft: 75, 30, 30;
+  --accent-main-foreground: rgb(var(--accent-main));
+  --accent-main-background: rgba(var(--accent-main), 0.075);
+  --accent-soft-foreground: rgba(var(--accent-soft), 0.125);
+  --accent-soft-background: rgba(var(--accent-soft), 0.05);
+  --accent-on-selection: rgb(255, 110, 110);
+  --callout-default: var(--text-normal);
+  --callout-info: var(--text-normal);
+  --callout-summary: var(--text-normal);
+  --callout-tip: var(--text-normal);
+  --callout-question: var(--text-normal);
+  --callout-example: var(--text-normal);
+  --callout-quote: var(--text-normal);
+  --callout-todo: rgb(0, 130, 255);
+  --callout-important: var(--accent-main-foreground);
+  --callout-success: rgb(0, 180, 0);
+  --callout-warning: rgb(255, 160, 0);
+  --callout-fail: rgb(255, 20, 50);
+  --callout-error: rgb(255, 20, 50);
+  --callout-bug: rgb(245, 0, 175);
+  --color-accent: var(--accent-main-foreground);
+
+  /* Font Colors */
+  --text-main: 0, 0, 0;
+  --text-normal: rgb(var(--text-main));
+  --text-muted: var(--text-main);
+  --text-faint: var(--text-main);
+  --text-white: var(--background-primary);
+  --text-highlight-bg: rgb(250, 237, 75);
+  --text-highlight-fg: var(--text-normal);
+  --text-error: rgb(250, 20, 50);
+  --text-accent: var(--accent-main-foreground);
+  --text-accent-hover: var(--text-normal);
+  --text-on-accent: var(--text-white) !important;
+  --text-selection: var(--accent-on-selection);
+  --code-normal: var(--text-white);
+  --code-punctuation: var(--code-normal);
+  --hr-color: rgba(var(--text-main), 0.4);
+
+  /* Syntax Highlighting */
+  --code-peripheral: 152, 157, 190;
+  --code-comment: rgb(var(--code-peripheral));
+  --code-indentation-guide-color: rgba(var(--code-peripheral), 0.5);
+  --color-yellow: rgb(240, 215, 65);
+  --color-orange: rgb(220, 95, 0);
+  --color-pink: rgb(230, 100, 240);
+  --color-red: rgb(230, 65, 65);
+  --color-cyan: rgb(0, 202, 235);
+  --color-green: rgb(30, 195, 75);
+  --color-purple: rgb(140, 110, 255);
+
+  /* Interface Colors */
+  --titlebar-background: var(--background-secondary);
+  --titlebar-background-focused: var(--background-secondary);
+  --interactive-normal: var(--accent-soft-background);
+  --interactive-hover: var(--accent-soft-foreground);
+  --interactive-accent: var(--accent-main-foreground);
+  --interactive-accent-hover: var(--accent-main-foreground);
+  --tag-background: var(--accent-main-background);
+  --tag-background-hover: rgba(var(--accent-main), 0.12);
+  --prompt-border-color: var(--accent-soft-foreground);
+  --modal-border-color: var(--accent-soft-foreground);
+  --code-background: var(--background-dark);
+  --background-modifier-hover: var(--accent-soft-background);
+  --background-modifier-active-hover: var(--accent-soft-background);
+  --background-modifier-form-field: var(--accent-soft-background);
+  --background-modifier-border: var(--accent-soft-foreground);
+  --background-modifier-border-hover: var(--accent-soft-foreground);
+  --background-modifier-border-focus: var(--accent-soft-foreground);
+  --background-modifier-error: var(--text-error);
+  --background-modifier-error-hover: var(--text-error);
+  --radius-s: 2px;
+  --radius-m: 4px;
+  --input-radius: 4px;
+
+  /* Dictionary Plugin Colors */
+  --dictionary-background-primary: var(--accent-soft-background);
+  --dictionary-background-secondary: var(--background-secondary);
+
+  /* Kanban Plugin Colors */
+  --kanban-button-text: var(--text-normal);
+  --kanban-button-text-hover: var(--text-white);
+  --kanban-checkbox-border: var(--accent-soft-foreground);
+}
+
+.theme-dark {
+  /* Background Colors */
+  --background-primary: rgb(22, 29, 44);
+  --background-secondary: rgb(33, 43, 61);
+  --background-dark: rgb(10, 18, 30);
+  --background-extra-dark: rgb(0, 5, 10);
+  --background-primary-alt: var(--background-dark);
+  --background-secondary-alt: var(--background-dark);
+  
+  /* Accent Colors */
+  --accent-main: 0, 217, 255;
+  --accent-soft: 180, 212, 250;
+  --accent-main-foreground: rgb(var(--accent-main));
+  --accent-main-background: rgba(var(--accent-main), 0.05);
+  --accent-soft-foreground: rgba(var(--accent-soft), 0.1);
+  --accent-soft-background: rgba(var(--accent-soft), 0.05);
+  --accent-on-selection: rgba(var(--accent-main), 0.4);
+  --callout-default: var(--text-normal);
+  --callout-info: var(--text-normal);
+  --callout-summary: var(--text-normal);
+  --callout-tip: var(--text-normal);
+  --callout-question: var(--text-normal);
+  --callout-example: var(--text-normal);
+  --callout-quote: var(--text-normal);
+  --callout-todo: rgb(0, 115, 255);
+  --callout-important: var(--accent-main-foreground);
+  --callout-success: rgb(0, 200, 0);
+  --callout-warning: rgb(210, 225, 0);
+  --callout-fail: rgb(250, 20, 50);
+  --callout-error: rgb(250, 20, 50);
+  --callout-bug: rgb(245, 0, 150);
+  --color-accent: var(--accent-main-foreground);
+
+  /* Font Colors */
+  --text-main: 250, 247, 245;
+  --text-normal: rgba(var(--text-main), 1);
+  --text-muted: rgba(var(--text-main), 1);
+  --text-faint: rgba(var(--text-main), 1);
+  --text-white: var(--text-normal);
+  --text-highlight-bg: rgb(210, 197, 50);
+  --text-highlight-fg: #000;
+  --text-error: rgb(250, 20, 50);
+  --text-accent: var(--accent-main-foreground);
+  --text-accent-hover: var(--text-normal);
+  --text-on-accent: #000 !important;
+  --text-selection: var(--accent-on-selection);
+  --code-normal: var(--text-white);
+  --code-punctuation: var(--code-normal);
+  --hr-color: rgba(var(--accent-soft), 0.2);
+
+  /* Syntax Highlighting */
+  --code-peripheral: 175, 191, 255;
+  --code-comment: rgba(var(--code-peripheral), 0.7);
+  --code-indentation-guide-color: rgba(var(--code-peripheral), 0.35);
+  --color-yellow: rgb(240, 215, 65);
+  --color-orange: rgb(220, 95, 0);
+  --color-pink: rgb(230, 100, 240);
+  --color-red: rgb(230, 65, 65);
+  --color-cyan: rgb(0, 202, 235);
+  --color-green: rgb(30, 195, 75);
+  --color-purple: rgb(140, 110, 255);
+
+  /* Interface Colors */
+  --titlebar-background: var(--background-secondary);
+  --titlebar-background-focused: var(--background-secondary);
+  --interactive-normal: var(--background-dark);
+  --interactive-hover: var(--background-dark);
+  --interactive-accent: var(--accent-main-foreground);
+  --interactive-accent-hover: var(--accent-main-foreground);
+  --tag-background: var(--accent-main-background);
+  --tag-background-hover: rgba(var(--accent-main), 0.08);
+  --prompt-border-color: var(--accent-soft-foreground);
+  --modal-border-color: var(--accent-soft-foreground);
+  --code-background: var(--background-dark);
+  --background-modifier-hover: var(--accent-soft-background);
+  --background-modifier-active-hover: var(--accent-soft-background);
+  --background-modifier-form-field: var(--background-dark);
+  --background-modifier-border: var(--accent-soft-foreground);
+  --background-modifier-border-hover: var(--accent-soft-foreground);
+  --background-modifier-border-focus: var(--accent-soft-foreground);
+  --background-modifier-error: var(--text-error);
+  --background-modifier-error-hover: var(--text-error);
+  --radius-s: 2px;
+  --radius-m: 4px;
+  --input-radius: 4px;
+
+  /* Dictionary Plugin Colors */
+  --dictionary-background-primary: var(--background-secondary);
+  --dictionary-background-secondary: var(--background-primary);
+
+  /* Kanban Plugin Colors */
+  --kanban-button-text: var(--text-normal);
+  --kanban-button-text-hover: #000;
+  --kanban-checkbox-border: var(--background-primary);
+}
+
+/* Font Defaults */
+body {
+  --font-default: 'Franklin Gothic Book', 'Rubik', 'Helvetica Neue', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-interface-theme: var(--font-default);
+  --font-monospace-default: 'iA Writer Mono S', 'IBM Plex Mono', Menlo, SFMono-Regular, 'Roboto Mono', Consolas, 'Source Code Pro', monospace;
+}
+
+.workspace {
+  /* Font Styles */
+  --inline-title-size: 1.625em;
+  --h1-size: 1.5em;
+  --h2-size: 1.375em;
+  --h3-size: 1.25em;
+  --h4-size: 1.125em;
+  --h5-size: 1em;
+  --h6-size: 1em;
+  --h1-color: var(--text-normal);
+  --h2-color: var(--text-normal);
+  --h3-color: var(--text-normal);
+  --h4-color: var(--text-normal);
+  --h5-color: var(--text-normal);
+  --h6-color: var(--text-normal);
+  --heading-formatting: var(--text-normal);
+  --list-elements: var(--text-normal);
+  --list-marker-color: var(--list-elements);
+  --nav-item-color: var(--text-normal);
+  --status-bar-text-color: var(--text-normal);
+  --vault-name-font-weight: bold;
+  --table-header-font: var(--font-text), sans-serif;
+  --line-height-normal: 1.25em;
+  --list-spacing: calc(var(--line-height-normal)/5);
+  --list-indent: 1.25em;
+
+  /* Link & Tag Colors */
+  --link-color: var(--accent-main-foreground);
+  --link-color-hover: var(--accent-main-foreground);
+  --link-external-color: var(--accent-main-foreground);
+  --link-external-color-hover: var(--accent-main-foreground);
+  --tag-color: var(--accent-main-foreground);
+
+  /* Page Element Colors */
+  --checkbox-border-color: var(--list-elements);
+  --table-border-color: var(--list-elements);
+  --table-header-border-color: var(--list-elements);
+  --indentation-guide-color: rgba(var(--text-main), 0.2) !important;
+
+  /* Page Element Styles */
+  --checkbox-radius: var(--radius-s);
+  --input-radius: var(--radius-s);
+  --tag-radius: var(--radius-m);
+  --hr-thickness: 1px;
+
+  /* Navigation Colors */
+  --nav-item-background-hover: var(--accent-soft-background);
+  --nav-item-background-active: var(--accent-soft-background);
+  --nav-indentation-guide-color: var(--accent-main-foreground);
+  --nav-collapse-icon-color: var(--accent-main-foreground);
+  --nav-collapse-icon-color-collapsed: var(--accent-main-foreground);
+
+  /* Icon Colors */
+  --icon-color: var(--text-normal);
+  --icon-color-hover: var(--text-normal);
+  --icon-color-focused: var(--text-normal);
+  --icon-color-active: var(--text-normal);
+  --collapse-icon-color: var(--accent-main-foreground);
+
+  /* Interface Colors */
+  --ribbon-background: var(--background-secondary);
+  --tab-background-active: var(--background-primary);
+  --tab-outline-color: var(--accent-main-foreground);
+  --scrollbar-thumb-bg: var(--accent-soft-background);
+  --scrollbar-active-thumb-bg: var(--accent-soft-foreground);
+  --divider-color: transparent;
+
+  /* Kanban Plugin Styles */
+  --button-radius: var(--radius-s);
+  --button-shadow: rgba(var(--accent-soft), 1);
+}
+
+/* Polka Dots  */
+.workspace-ribbon {
+  background-image: 
+    radial-gradient(var(--accent-main-foreground) 15%, transparent 25%),
+    radial-gradient(var(--accent-main-foreground) 17.5%, transparent 25%);
+  background-position: 2px 0px, 6px 4px;
+  background-size: 8px 8px;
+}
+.side-dock-ribbon-action, .side-dock-ribbon-action:hover {
+  background: var(--background-secondary);
+}
+
+/* Element Style Overrides */
+/* Headings */
+h5, .markdown-rendered h5, .HyperMD-header-5, .HyperMD-list-line .cm-header-5 {
+  font-weight: bold;
+}
+h6, .markdown-rendered h6, .HyperMD-header-6, .HyperMD-list-line .cm-header-6 {
+  font-weight: normal;
+  font-style: italic;
+}
+/* Further Font Styles */
+hr, .markdown-rendered hr {
+  border-top: var(--hr-color) var(--hr-thickness) dashed;
+}
+/* Special Text Block Spacing */
+.HyperMD-quote, .HyperMD-codeblock {
+  padding-left: 1.5em !important;
+}
+.cm-formatting-list, input[type=checkbox] {
+  margin-right: 0.25em;
+}
+/* Code Blocks */
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+  border-radius: var(--radius-s) var(--radius-s) 0px 0px;
+}
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+  border-radius: 0px 0px var(--radius-s) var(--radius-s);
+}
+.code-block-flair {
+  color: var(--code-normal) !important;
+}
+.code-block-flair:hover {
+  background: var(--background-extra-dark) !important;
+}
+.markdown-rendered button.copy-code-button {
+  color: var(--code-normal);
+  background-color: transparent;
+}
+.markdown-rendered button.copy-code-button:hover {
+  color: var(--code-normal);
+  background-color: var(--background-extra-dark);
+  box-shadow: none;
+}
+.HyperMD-codeblock .cm-indent::before {
+  border-right: var(--indentation-guide-width) solid var(--code-indentation-guide-color) !important;
+}
+.HyperMD-codeblock {
+  caret-color: var(--code-normal);
+}
+/* Callouts */
+.callout {
+  border-radius: var(--radius-s);
+  border: 2px dashed var(--callout-color);
+  background: transparent;
+  padding: 1em;
+}
+.callout-title, .callout-icon .svg-icon {
+  font-size: var(--h6-size);
+}
+.callout-title, .callout-icon .svg-icon {
+  color: var(--text-normal);
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+/* Canvases */
+.canvas-selection, .canvas-selection.mod-group-selection, .canvas-card-menu .canvas-card-menu-button:hover, .canvas-controls-group button.is-active, .canvas-node.is-dummy .canvas-node-container, .canvas-placeholder-message {
+  background: rgba(var(--accent-main), 0.1) !important;
+}
+.canvas-node-container {
+  border: 2px solid var(--text-normal);
+  border-radius: var(--radius-m);
+}
+.canvas-node.is-selected .canvas-node-container,
+.canvas-node.is-focused .canvas-node-container {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-stationary), var(--shadow-border-accent);
+}
+.canvas-node-container:focus {
+  border: 2px solid #fff;
+}
+/* Tags */
+.cm-hashtag {
+  line-height: 2em;
+}
+/* Highlights */
+.suggestion-highlight, .markdown-rendered mark, .cm-s-obsidian .cm-highlight, .cm-formatting-highlight {
+  background: var(--text-highlight-bg);
+  color: var(--text-highlight-fg) !important;
+}
+.markdown-rendered mark, .cm-s-obsidian .cm-highlight, .cm-formatting-highlight {
+  background: var(--text-highlight-bg);
+  color: var(--text-highlight-fg) !important;
+  padding: 0 3px;
+}
+.search-result-file-matched-text {
+  color: var(--text-highlight-fg);
+}
+.is-flashing {
+  caret-color: var(--text-highlight-fg);
+  color: var(--text-highlight-fg);
+}
+.is-flashing .tag, .is-flashing p {
+  color: var(--text-highlight-fg);
+}
+.is-flashing .tag {
+  background: transparent;
+}
+.nav-folder-title.is-being-dragged-over {
+  color: var(--text-normal);
+  background: var(--accent-main-background);
+}
+/* Slides */
+.reveal .controls button {
+  color: var(--accent-main-foreground);
+}
+/* Empty Pages */
+.empty-state-action:hover {
+  cursor: pointer;
+  color: var(--text-normal);
+}
+/* Status Bar */
+.status-bar {
+  background-color: var(--background-secondary);
+}
+/* Divider */
+.workspace-leaf-resize-handle:hover {
+  background-color: var(--accent-main-foreground);
+  border-color: var(--accent-main-foreground);
+}
+.is-translucent .workspace-leaf-resize-handle:hover {
+  background-color: var(--accent-main-foreground);
+  border-color: var(--accent-main-foreground);
+}
+/* Menus */
+.menu, .vertical-tab-header {
+  background-color: var(--background-primary);
+}
+select, .dropdown, select:focus,
+.dropdown:focus {
+  box-shadow: 0 0 0px 1px var(--background-modifier-border-focus);
+}
+textarea:active,
+input[type='text']:active,
+input[type='search']:active,
+input[type='email']:active,
+input[type='password']:active,
+input[type='number']:active,
+textarea:focus,
+input[type='text']:focus,
+input[type='search']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+textarea:focus-visible,
+input[type='text']:focus-visible,
+input[type='search']:focus-visible,
+input[type='email']:focus-visible,
+input[type='password']:focus-visible,
+input[type='number']:focus-visible {
+  box-shadow: 0 0 0 1px var(--background-modifier-border-focus);
+}
+input.document-search-input.mod-no-match,
+input.document-replace-input.mod-no-match {
+  background-color: var(--background-extra-dark);
+}
+
+/* Calendar Plugin */
+#calendar-container .year {
+  color: var(--text-normal);
+  font-weight: normal;
+}
+#calendar-container .month, #calendar-container .year {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#calendar-container .week-num {
+  font-size: 9px;
+  font-family: var(--font-text);
+}
+#calendar-container .day {
+  border-radius: 0;
+  border: 1px solid var(--accent-soft-foreground);
+  font-size: 11px;
+  font-family: var(--font-text);
+}
+#calendar-container .reset-button {
+  font-size: 14px;
+}
+#calendar-container th {
+  font-family: var(--font-text);
+  font-size: 9px;
+}
+#calendar-container td {
+  padding: 2px;
+}
+
+/* Dictionary Plugin */
+.dictionary-view-content .main {
+  background: var(--dictionary-background-primary) !important;
+  border-radius: var(--radius-s) !important;
+}
+.dictionary-view-content .container {
+  background: var(--dictionary-background-secondary) !important;
+  border-radius: var(--radius-s) !important;
+}
+
+/* Execute Code Plugin */
+code.language-output hr {
+  border-top: var(--code-indentation-guide-color) 1px dashed !important;
+  margin: 1.5em 0 1.5em;
+}
+:not(.use-custom-output-color) code.language-output span.stdout {
+  color: var(--code-normal) !important;
+}
+code.language-output {
+  margin-bottom: 4em !important;
+}
+.run-code-button, .clear-button {
+  background: transparent !important;
+  border: 1px solid var(--code-normal) !important;
+  color: var(--code-normal) !important;
+  margin: 16px !important;
+}
+.run-code-button:hover, .clear-button:hover {
+  background: var(--code-normal) !important;
+  border: 1px solid var(--code-normal) !important;
+  color: var(--background-dark) !important;
+}
+
+/* Kanban Plugin Styles */
+.kanban-plugin__lane {
+  border-radius: var(--radius-s);
+  background: var(--main-background);
+}
+.kanban-plugin__lane .task-list-item-checkbox {
+  background: var(--background-primary);
+  border: 1px solid var(--kanban-checkbox-border) !important;
+  filter: none !important;
+  transition: 0.05s;
+}
+.kanban-plugin__lane .task-list-item-checkbox:hover {
+  border: 1px solid transparent !important;
+  box-shadow: 0px 0px 0px 2px rgba(var(--accent-main), 0.67);
+  transition: 0.05s;
+}
+.kanban-plugin__item-title-wrapper {
+  background: var(--background-secondary);
+}
+.kanban-plugin__item-tag {
+  border-radius: var(--radius-s) !important;
+}
+button:not(.clickable-icon) {
+  background: var(--accent-soft-background);
+  color: var(--kanban-button-text);
+}
+button:not(.clickable-icon):hover {
+  background: var(--accent-main-foreground);
+  color: var(--kanban-button-text-hover);
+}
+button:not(.clickable-icon), button:not(.clickable-icon):hover {
+  box-shadow: 0px 0px 1px 0px var(--button-shadow);
+  transition: 0s;
+}
+.kanban-plugin__lane input[type=checkbox]:checked:after {
+  top: -2px;
+  left: -2px;
+}

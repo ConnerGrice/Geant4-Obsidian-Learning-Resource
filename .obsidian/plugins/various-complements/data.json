@@ -1,0 +1,791 @@
+{
+  "strategy": "default",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 5,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": false,
+  "firstCharactersDisableSuggestions": ":/^",
+  "showMatchStrategy": true,
+  "showComplementAutomatically": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Tab",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "__init__": {
+      "__init__": {
+        "currentFile": {
+          "count": 10,
+          "lastUpdated": 1675112771104
+        }
+      }
+    },
+    "Represents": {
+      "Represents": {
+        "currentFile": {
+          "count": 14,
+          "lastUpdated": 1675113017227
+        }
+      }
+    },
+    "Inheritance": {
+      "Inheritance": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1675014631425
+        },
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675110303928
+        }
+      }
+    },
+    "inheritance": {
+      "inheritance": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1675110249924
+        }
+      }
+    },
+    "functionality": {
+      "functionality": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675010974789
+        }
+      }
+    },
+    "thig2": {
+      "thig2": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675010721662
+        }
+      }
+    },
+    "IPredator": {
+      "IPredator": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675010865728
+        }
+      }
+    },
+    "Potentia": {
+      "Potentia": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675014799049
+        }
+      }
+    },
+    "Composition": {
+      "Composition": {
+        "currentFile": {
+          "count": 7,
+          "lastUpdated": 1675105268454
+        },
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1675105191651
+        }
+      }
+    },
+    "relationship": {
+      "relationship": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675015599744
+        }
+      }
+    },
+    "composition": {
+      "composition": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1675109138934
+        }
+      }
+    },
+    "Creature": {
+      "Creature": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675020976339
+        }
+      }
+    },
+    "specific": {
+      "specific": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675021563529
+        }
+      }
+    },
+    "Aggregation": {
+      "Aggregation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675021688555
+        },
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675105170573
+        }
+      }
+    },
+    "aggregation": {
+      "aggregation": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1675107734224
+        }
+      }
+    },
+    "Object": {
+      "Object": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675105408751
+        }
+      }
+    },
+    "ad-ab": {
+      "ad-ab": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675106011726
+        }
+      }
+    },
+    "independent": {
+      "independent": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675107915949
+        }
+      }
+    },
+    "BedRoom": {
+      "BedRoom": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675108956441
+        }
+      }
+    },
+    "association": {
+      "association": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675109143027
+        }
+      }
+    },
+    "principle": {
+      "principle": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675109611379
+        }
+      }
+    },
+    "Employee": {
+      "Employee": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1675112751650
+        }
+      }
+    },
+    "salary": {
+      "salary": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1675112315291
+        }
+      }
+    },
+    "percentage": {
+      "percentage": {
+        "currentFile": {
+          "count": 6,
+          "lastUpdated": 1675112301195
+        }
+      }
+    },
+    "compute_pay": {
+      "compute_pay": {
+        "currentFile": {
+          "count": 6,
+          "lastUpdated": 1675112060544
+        }
+      }
+    },
+    "employees": {
+      "employees": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1675111665797
+        }
+      }
+    },
+    "worked_hours": {
+      "worked_hours": {
+        "currentFile": {
+          "count": 7,
+          "lastUpdated": 1675112405377
+        }
+      }
+    },
+    "_commission_": {
+      "_commission_": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675111221485
+        }
+      }
+    },
+    "_sala_": {
+      "_sala_": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675111195675
+        }
+      }
+    },
+    "_salaried_": {
+      "_salaried_": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675111197526
+        }
+      }
+    },
+    "_hourly_": {
+      "_hourly_": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675111201200
+        }
+      }
+    },
+    "SalariedEmployee": {
+      "SalariedEmployee": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1675113105806
+        }
+      }
+    },
+    "commission": {
+      "commission": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1675112879772
+        }
+      }
+    },
+    "employee": {
+      "employee": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675111858517
+        }
+      }
+    },
+    "Association": {
+      "Association": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675111738913
+        }
+      }
+    },
+    "Commission": {
+      "Commission": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675112795729
+        }
+      }
+    },
+    "@abstractmethod": {
+      "@abstractmethod": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675112057893
+        }
+      }
+    },
+    "Contract": {
+      "Contract": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675112694949
+        }
+      }
+    },
+    "Contracts": {
+      "Contracts": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675112786029
+        }
+      }
+    },
+    "approach": {
+      "approach": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675112930448
+        }
+      }
+    },
+    "SalariedEmployeeWithCommission": {
+      "SalariedEmployeeWithCommission": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675113108030
+        }
+      }
+    },
+    "Hourly": {
+      "Hourly": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675113136720
+        }
+      }
+    },
+    "Playlist": {
+      "Playlist": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675173145108
+        }
+      }
+    },
+    "Info": {
+      "Info": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675627272539
+        }
+      }
+    },
+    "Address": {
+      "Address": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675627346770
+        }
+      }
+    },
+    "Since": {
+      "Since": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675627377811
+        }
+      }
+    },
+    "Email": {
+      "Email": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675627426871
+        }
+      }
+    },
+    "Surname": {
+      "Surname": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675627488915
+        }
+      }
+    },
+    "SetUserInitialization": {
+      "SetUserInitialization": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676552504585
+        }
+      }
+    },
+    "Initialize": {
+      "Initialize": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1676642579487
+        }
+      }
+    },
+    "individually": {
+      "individually": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676554558240
+        }
+      }
+    },
+    "Sensitive": {
+      "Sensitive": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676574778600
+        }
+      }
+    },
+    "constructed": {
+      "constructed": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676570871332
+        }
+      }
+    },
+    "ExampleDetectorConstruction": {
+      "ExampleDetectorConstruction": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1676571487619
+        }
+      }
+    },
+    "G4VUserDetectorConstuction": {
+      "G4VUserDetectorConstuction": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676570900353
+        }
+      }
+    },
+    "construct": {
+      "construct": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676570931223
+        }
+      }
+    },
+    "Deconstrictor": {
+      "Deconstrictor": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676570963558
+        }
+      }
+    },
+    "G4VPhysicalVolume": {
+      "G4VPhysicalVolume": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1676571482655
+        }
+      }
+    },
+    "Constuct": {
+      "Constuct": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1676579661044
+        }
+      }
+    },
+    "geometry": {
+      "geometry": {
+        "currentFile": {
+          "count": 9,
+          "lastUpdated": 1676582017497
+        }
+      }
+    },
+    "WorldMat": {
+      "WorldMat": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676579533624
+        }
+      }
+    },
+    "physicalWorld": {
+      "physicalWorld": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676571768347
+        }
+      }
+    },
+    "Generate": {
+      "Generate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676571802219
+        }
+      }
+    },
+    "physical": {
+      "physical": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676573301732
+        }
+      }
+    },
+    "defined": {
+      "defined": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676574173233
+        }
+      }
+    },
+    "dimension": {
+      "dimension": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676573613594
+        }
+      }
+    },
+    "Material": {
+      "Material": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1676583064897
+        }
+      }
+    },
+    "sensitive": {
+      "sensitive": {
+        "currentFile": {
+          "count": 8,
+          "lastUpdated": 1676645250623
+        }
+      }
+    },
+    "detectors": {
+      "detectors": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676574873303
+        }
+      }
+    },
+    "dimensions": {
+      "dimensions": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676579326461
+        }
+      }
+    },
+    "G4PVReplica": {
+      "G4PVReplica": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676581026978
+        }
+      }
+    },
+    "G4PVPlacement": {
+      "G4PVPlacement": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676582230194
+        }
+      }
+    },
+    "specify": {
+      "specify": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676582476831
+        }
+      }
+    },
+    "G4NistManager": {
+      "G4NistManager": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676582982042
+        }
+      }
+    },
+    "G4Material": {
+      "G4Material": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676583376321
+        }
+      }
+    },
+    "G4VSensitiveDetector": {
+      "G4VSensitiveDetector": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676641737969
+        }
+      }
+    },
+    "detector": {
+      "detector": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676642024139
+        }
+      }
+    },
+    "G4HCofThisEvent": {
+      "G4HCofThisEvent": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676642597564
+        }
+      }
+    },
+    "G4TouchableHistory": {
+      "G4TouchableHistory": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676644228473
+        }
+      }
+    },
+    "hitPosition": {
+      "hitPosition": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676644568425
+        }
+      }
+    },
+    "position": {
+      "position": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676644425685
+        }
+      }
+    },
+    "GetPosition": {
+      "GetPosition": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676644523487
+        }
+      }
+    },
+    "container": {
+      "container": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676644556214
+        }
+      }
+    },
+    "G4SDManager": {
+      "G4SDManager": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676644691063
+        }
+      }
+    },
+    "world": {
+      "world": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676645837276
+        }
+      }
+    },
+    "ConstructSDandField()": {
+      "ConstructSDandField()": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1676910376641
+        }
+      }
+    },
+    "Initialize()": {
+      "Initialize()": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676646789045
+        }
+      }
+    },
+    "GeneratePrimaries()": {
+      "GeneratePrimaries()": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676911732092
+        }
+      }
+    },
+    "PrimaryGeneratorAction": {
+      "PrimaryGeneratorAction": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676913751066
+        }
+      }
+    },
+    "SensitiveDetector": {
+      "SensitiveDetector": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677501731258
+        }
+      }
+    },
+    "Track": {
+      "Track": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677603686615
+        }
+      }
+    }
+  }
+}

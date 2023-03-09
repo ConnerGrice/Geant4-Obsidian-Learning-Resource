@@ -1,0 +1,8 @@
+{
+  "snapToObjects": true,
+  "snapToGrid": true,
+  "defaultWheelBehavior": "zoom",
+  "newFileLocation": "current",
+  "cardLabelVisibility": "never",
+  "zoomBreakpoint": 2.39
+}

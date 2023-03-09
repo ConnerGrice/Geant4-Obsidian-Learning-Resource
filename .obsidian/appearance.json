@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "cssTheme": "Things",
+  "baseFontSize": 15,
+  "translucency": false,
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "textFontFamily": "IBM Plex Mono",
+  "interfaceFontFamily": "IBM Plex Mono",
+  "monospaceFontFamily": "Monoid Retina"
+}

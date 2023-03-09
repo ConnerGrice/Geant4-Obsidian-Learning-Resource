@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Daily",
+      "color": {
+        "a": 1,
+        "rgb": 14147666
+      }
+    },
+    {
+      "query": "path:\"Software Dev/Design Principles\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431387
+      }
+    },
+    {
+      "query": "path:Private",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:\"Casual Work/Geant4\"",
+      "color": {
+        "a": 1,
+        "rgb": 3662302
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 1.35052083333333,
+  "lineSizeMultiplier": 0.9421875,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 17.2916666666667,
+  "linkStrength": 0.916666666666667,
+  "linkDistance": 194,
+  "scale": 0.11660891579457332,
+  "close": true
+}

@@ -1,0 +1,13 @@
+{
+  "spellcheck": true,
+  "promptDelete": false,
+  "showIndentGuide": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": true,
+  "defaultViewMode": "preview",
+  "attachmentFolderPath": "Images",
+  "readableLineLength": true,
+  "tabSize": 2
+}

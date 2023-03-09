@@ -1,0 +1,1 @@
+This is a type of [[PhysicalVolume]] that allows the user to copy and reflect a [[LogicalVolume]].
