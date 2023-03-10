@@ -11,14 +11,9 @@
             "id": "23c63997867ab27a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "Geant4-Overview.canvas",
-                "viewState": {
-                  "x": 5305.398014940197,
-                  "y": -3083.061729063223,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf"
               }
             }
           },
@@ -98,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Geant4-Overview.canvas",
+                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Geant4-Overview.canvas",
+                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Geant4-Overview.canvas"
+                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf"
               }
             }
           }
@@ -162,6 +157,13 @@
   "active": "23c63997867ab27a",
   "lastOpenFiles": [
     "Resources/Geometry2.pdf",
+    "Resources/G4_LIO_w4_sensitive_users_actions.pdf",
+    "Resources/visualisation_ui_lp.pdf",
+    "Resources/Unconfirmed 492737.crdownload",
+    "Resources/G4VisAdvanced.pdf",
+    "Resources/Unconfirmed 772074.crdownload",
+    "Resources/Geometry1.pdf",
+    "Resources/detector_response.pdf",
     "Geant4-Overview.canvas",
     "Physical Volumes/Placement Volumes/Placement Volumes.md",
     "Event.md",
@@ -200,12 +202,6 @@
     "Casual Work",
     "TrackingAction/PreUserTrackingAction().md",
     "TrackingAction/PostUserTrackingAction().md",
-    "TrackingAction",
-    "SteppingAction/UserSteppingAction().md",
-    "SteppingAction",
-    "StackingAction",
-    "SensitiveDetector",
-    "RunAction",
-    "Resources/UserActions_MNovak.pdf"
+    "SteppingAction/UserSteppingAction().md"
   ]
 }

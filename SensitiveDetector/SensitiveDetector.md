@@ -16,8 +16,8 @@ public:
 	ExampleSD(G4String name, G4String collection);
 	~ExampleSD();
 
-	void Initialize(G4HCofThisEvent*); //Run at start of event
-	G4bool ProcessHits(G4Step*,G4TouchableHistory*); //
+	void Initialize(G4HCofThisEvent* hce); //Run at start of event
+	G4bool ProcessHits(G4Step* aStep,G4TouchableHistory*); //
 	void EndOfEvent(G4HCofThisEvent*); //Run at end of event
 private:
 	//Hit collection used in other methods

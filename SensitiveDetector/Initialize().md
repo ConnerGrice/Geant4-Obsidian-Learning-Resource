@@ -5,7 +5,7 @@ void ExampleSD::Initialize(G4HCofThisEvent* hce){
 	fexampleHitsCollection = new ExampleHitsCollection(SensitiveDetectorName,collectionName[0]);
 
 	//Get the collection ID and add it the this event
-	G4int hcID = G4SDManager::GetSDManager()->GetCollectionID(fexampleHitsCollection);
+	G4int hcID = G4SDManager::GetSDMpointer()->GetCollectionID(fexampleHitsCollection);
 	hce->AddHitsCollection(hcID,fexampleHitsCollection);
 }
 ```
