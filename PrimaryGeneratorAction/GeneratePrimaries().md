@@ -8,7 +8,9 @@ void ExamplePrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent){
 
 	//Sets particle properties
 	particleGun->SetParticlePosition(G4ThreeVector(0,1,0));
-	particleGun->SetParticleEnergy(G4double 10*Mev);
+
+	G4double energy = ...
+	particleGun->SetParticleEnergy(energy);
 	particleGun->SetParticleMomentumDirection(G4ThreeVector(1,1,1));
 
 	//Shoots the particle at the start of an event

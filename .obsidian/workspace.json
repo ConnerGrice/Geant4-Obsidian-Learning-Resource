@@ -4,21 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "4699cc364c31057f",
+        "id": "2f555e37ed24f2e9",
         "type": "tabs",
         "children": [
           {
-            "id": "23c63997867ab27a",
+            "id": "e451de99e9b5d8c8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf"
+                "file": "Geant4-Overview.canvas",
+                "viewState": {
+                  "x": 3446.164899476442,
+                  "y": -3055.006598274191,
+                  "zoom": -3
+                }
               }
             }
           },
           {
-            "id": "39c466fa44924c93",
+            "id": "6bbee087489d5b51",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -77,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "06d209800019a39f",
@@ -93,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf",
+                "file": "Geant4-Overview.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf",
+                "file": "Geant4-Overview.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/G4_LIO_w4_sensitive_users_actions.pdf"
+                "file": "Geant4-Overview.canvas"
               }
             }
           }
@@ -154,20 +160,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23c63997867ab27a",
+  "active": "e451de99e9b5d8c8",
   "lastOpenFiles": [
     "Resources/Geometry2.pdf",
-    "Resources/G4_LIO_w4_sensitive_users_actions.pdf",
-    "Resources/visualisation_ui_lp.pdf",
-    "Resources/Unconfirmed 492737.crdownload",
-    "Resources/G4VisAdvanced.pdf",
-    "Resources/Unconfirmed 772074.crdownload",
-    "Resources/Geometry1.pdf",
-    "Resources/detector_response.pdf",
+    "Resources/Geant4_SD.pdf",
+    "Step.md",
     "Geant4-Overview.canvas",
+    "Physical Volumes/Repeated Volumes/PVReplicatedSlice.md",
+    "Resources/basicStructure.pdf",
+    "Resources/Material.pdf",
+    "Resources/Unconfirmed 826411.crdownload",
+    "Resources/Geometry1.pdf",
+    "Resources/geometry_basics.pdf",
+    "Resources/HitsAndDigits.pdf",
+    "Resources/detector_response.pdf",
+    "Resources/userActions.pdf",
+    "Geant4.md",
+    "README.md",
     "Physical Volumes/Placement Volumes/Placement Volumes.md",
     "Event.md",
-    "README.md",
     "screenshots/physVol.png",
     "screenshots/LogVol.png",
     "screenshots/OvrView.png",
@@ -195,13 +206,7 @@
     "DetectorConstruction/Construct().md",
     "Trajectory.md",
     "Geant4/Untitled.md",
-    "Geant4.md",
-    "screenshots",
-    "Geant4-Obsidian-Learning-Resource",
     "LogicalVolume.md",
-    "Casual Work",
-    "TrackingAction/PreUserTrackingAction().md",
-    "TrackingAction/PostUserTrackingAction().md",
-    "SteppingAction/UserSteppingAction().md"
+    "TrackingAction/PreUserTrackingAction().md"
   ]
 }

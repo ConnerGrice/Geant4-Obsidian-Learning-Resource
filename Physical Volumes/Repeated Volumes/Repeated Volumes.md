@@ -2,5 +2,6 @@
 - [[PVDivision]]
 - [[PVParameterised]]
 - [[PVReplica]]
+- [[PVReplicatedSlice]]
 
 %% End Waypoint %%
